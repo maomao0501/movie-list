@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Jiazhen" />
+    <meta name="keywords" content="JavaScript" />
+    <meta name="description" content="Moive List" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="fixed-nav-bar">
+        <ul>
+            <li><img style="width:40px" src="tmdb.png".png></li>
+            <li class="underline2 underline2--emoji"><a href="#Movies List">Movies List</a></li>
+            <li><div class="dropdown"></li>
+        </ul>
+        <h1>The Most Popular Movies</h1>
+        <button type="button" style="margin-right: 200px" value="Back" onclick="goBack()">prev</button>
+        <span>Page</span>
+        <button type="button" style="margin-left: 200px" value="Forward" onclick="goForward()">next</button>
+        <div id="movies"></div>
+    </nav>
+</body>
+<script src="script.js"></script>
+</html>
